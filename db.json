@@ -1,0 +1,125 @@
+{
+  "students": [
+    {
+      "id": "a87b"
+    },
+    {
+      "username": "Ahmed",
+      "email": "ahmed@gmail.com",
+      "password": "a123321",
+      "subject": [
+        {
+          "name": "العلوم",
+          "id": "ba87",
+          "degree": 1
+        },
+        {
+          "name": "جغرافيا",
+          "id": "3161",
+          "degree": 3
+        },
+        {
+          "name": "حاسب",
+          "id": "305b",
+          "degree": 2
+        }
+      ],
+      "id": "7630"
+    },
+    {
+      "username": "شهد خالد",
+      "email": "shahad@gmail.com",
+      "password": "s123321",
+      "subject": [
+        {
+          "name": "العلوم",
+          "id": "ba87",
+          "degree": 3
+        },
+        {
+          "name": "جغرافيا",
+          "id": "3161",
+          "degree": 3
+        },
+        {
+          "name": "حاسب",
+          "id": "305b",
+          "degree": 3
+        },
+        {
+          "name": "1",
+          "id": "79ca",
+          "degree": 0
+        }
+      ],
+      "id": "ac90"
+    },
+    {
+      "id": "ba83",
+      "username": "ريتال",
+      "email": "rital@gmail.com",
+      "password": "r123321"
+    },
+    {
+      "username": "نواف",
+      "email": "nawaf@gmail.com",
+      "password": "n123321",
+      "subject": [
+        {
+          "name": "العلوم",
+          "id": "ba87",
+          "degree": 0
+        }
+      ],
+      "id": "6328"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "العلوم",
+      "id": "ba87",
+      "questions": [
+        {
+          "question": "ما هو الكوكب الأقرب إلى الشمس؟",
+          "answer1": "الأرض",
+          "answer2": "عطارد ",
+          "answer3": "الزهرة",
+          "answer4": "المريخ",
+          "correctAnswer": "عطارد "
+        },
+        {
+          "question": "ما هو الكوكب الأكبر حجماً في المجموعة الشمسية؟",
+          "answer1": "الزهرة",
+          "answer2": "الأرض",
+          "answer3": "المريخ",
+          "answer4": "المشتري",
+          "correctAnswer": "المشتري"
+        },
+        {
+          "question": "ما هو الكوكب الأصغر حجماً في المجموعة الشمسية؟",
+          "answer1": "عطارد",
+          "answer2": "الزهرة",
+          "answer3": "الأرض",
+          "answer4": "المريخ",
+          "correctAnswer": "عطارد"
+        }
+      ]
+    }
+  ],
+  "doctor": [
+    {
+      "id": "a87b",
+      "username": "doctor",
+      "email": "doctor@gmail.com",
+      "password": "d123321"
+    }
+  ],
+  "login": [
+    {
+      "username": "doctor",
+      "role": "doctor",
+      "userId": "a87b",
+      "id": "a87b"
+    }
+  ]
+}

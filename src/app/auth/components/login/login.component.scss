@@ -1,0 +1,31 @@
+.login {
+  width: 60%;
+  margin: 100px auto;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 20px;
+  .loginhead {
+    margin: -40px 0 20px;
+    h2 {
+      display: inline-block;
+      padding: 5px 88px;
+      background-color: var(--primary);
+      border-radius: 30px;
+      font-size: 28px;
+      color: var(--white);
+    }
+  }
+  mat-form-field {
+    width: 100%;
+  }
+  .loginfoot {
+    justify-content: space-between;
+  }
+}
+
+// .alert-danger {
+//   background-color: #f44336c4;
+//   color: #fff;
+//   margin-top: 15px;
+//   font-size: 18px;
+// }

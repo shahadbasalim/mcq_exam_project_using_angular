@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+$primary: #f44336;
+$border: #ddd;
+$white: #fff;
+:root {
+  --primary: #{$primary};
+  --border: #{$border};
+  --white: #{$white};
+}
+html,
+body {
+  height: 100%;
+  font-family: "Almarai", sans-serif !important;
+}
+a,
+.mat-internal-form-field > label,
+mat-form-field,
+mat-label,
+.mat-step-text-label,
+button,
+th,
+td {
+  font-family: "Almarai", sans-serif !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  all: unset;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.main-btn {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+.main-btn:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
